@@ -5,5 +5,8 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
   <bean id="dbConnection" class="com.higortavares.springcoreioc.infraestructure.DatabaseConnection"
   factory-method="getPGConnection">
+    <constructor-arg name="host" value="localhost" />
+    <constructor-arg name="port" value="5432"/>
+    <constructor-arg name="database" value="spring_core"/>
   </bean>
 </beans>
