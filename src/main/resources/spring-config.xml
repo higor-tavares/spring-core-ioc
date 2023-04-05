@@ -5,5 +5,5 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
   <import resource="data-access-beans.xml"/>
   <import resource="use-case-beans.xml"/>
-  <import resource="infraestructure-beans.xml"/>
+  <import resource="infraestructure-beans-v2.xml"/>
 </beans>
