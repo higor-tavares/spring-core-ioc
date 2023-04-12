@@ -7,6 +7,12 @@ public class AddUserUseCase {
 
   private final UserDAO userDB;
 
+  public void init(){
+    System.out.println("Calling the init method by Init Method LifeCycle");
+  }
+  public void destroy(){
+    System.out.println("[Life Cycle] Cleaning UP the [AddUserUseCase]");
+  }
   public AddUserUseCase(UserDAO userDAO) {
     this.userDB = userDAO;
   }

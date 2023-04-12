@@ -10,6 +10,9 @@ public class UserDAO {
     this.pgConnection = pgConnection;
     pgConnection.connect();
   }
+  public void destroy(){
+    System.out.println("[Life Cycle] Cleaning UP the [UserDAO]");
+  }
   public void save(User user) {
     System.out.println(String.format("The user %s was successfully added on database!", user.toString()));
   }
