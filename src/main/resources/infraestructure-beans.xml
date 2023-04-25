@@ -9,4 +9,6 @@
     <constructor-arg index="2" value="5432"/>
     <constructor-arg index="1" value="spring_core"/>
   </bean>
+  <bean id="firstAspect" class="com.higortavares.springcoreioc.infraestructure.FirstAspect">
+  </bean>
 </beans>
