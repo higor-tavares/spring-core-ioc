@@ -16,4 +16,6 @@
   </bean>
   <bean id="logExceptionHanlder" class="com.higortavares.springcoreioc.infraestructure.LogExceptionHandler">
   </bean>
+  <bean id="logMethodExecution" class="com.higortavares.springcoreioc.infraestructure.LogMethodExecution">
+  </bean>
 </beans>

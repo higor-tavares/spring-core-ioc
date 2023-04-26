@@ -2,8 +2,6 @@ package com.higortavares.springcoreioc.controller;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
-import com.higortavares.springcoreioc.application.AddUserUseCase;
 import com.higortavares.springcoreioc.domain.User;
 import com.higortavares.springcoreioc.domain.UserNotFoundException;
 import org.junit.jupiter.api.BeforeAll;
