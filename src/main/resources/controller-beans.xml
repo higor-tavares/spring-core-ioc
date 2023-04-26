@@ -3,11 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-  <bean id="dbConnection" class="com.higortavares.springcoreioc.infraestructure.DatabaseConnection"
-  factory-method="getPGConnection">
-    <constructor-arg index="0" value="localhost" />
-    <constructor-arg index="2" value="5432"/>
-    <constructor-arg index="1" value="spring_core"/>
+  <bean id="userController" class="com.higortavares.springcoreioc.controller.UserController">
   </bean>
-
 </beans>

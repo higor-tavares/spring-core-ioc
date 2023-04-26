@@ -9,4 +9,5 @@
   <import resource="data-access-beans.xml"/>
   <import resource="use-case-beans.xml"/>
   <import resource="infraestructure-beans-v2.xml"/>
+  <import resource="controller-beans.xml"/>
 </beans>
