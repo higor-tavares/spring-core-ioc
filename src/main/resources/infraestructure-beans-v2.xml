@@ -14,4 +14,6 @@
   </bean>
   <bean id="sayHelloAspect" class="com.higortavares.springcoreioc.infraestructure.SayHelloBeforeController">
   </bean>
+  <bean id="logExceptionHanlder" class="com.higortavares.springcoreioc.infraestructure.LogExceptionHandler">
+  </bean>
 </beans>
