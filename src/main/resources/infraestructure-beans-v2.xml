@@ -18,4 +18,6 @@
   </bean>
   <bean id="logMethodExecution" class="com.higortavares.springcoreioc.infraestructure.LogMethodExecution">
   </bean>
+  <bean id="receitaFederal" class="com.higortavares.springcoreioc.infraestructure.ReceitaFederal">
+  </bean>
 </beans>
